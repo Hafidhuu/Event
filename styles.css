@@ -1,8 +1,20 @@
-.images {
-  display: inline;
-  height: 598px;
-  width: 476px;
+body {
+  background-color: #111a28;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  margin-top: 50px;
 }
-.body {
-  display: 40%;
+
+.passes {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 590px;
+  transform: scale(0.5, 0.5);
+}
+.pass {
+  flex-basis: calc(100% / 3 - 10px);
+  background-color: #fff;
+  background-color: darksalmon;
 }
